@@ -1,0 +1,4 @@
+#source "https://rubygems.org" this was the default
+source "http://rubygems.org" #workaround
+
+gem 'rspec'
