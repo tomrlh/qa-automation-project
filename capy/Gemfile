@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+#source "http://rubygems.org" #workaround
+
+gem 'capybara'
+gem 'selenium-webdriver'
+gem 'rspec'

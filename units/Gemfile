@@ -4,3 +4,4 @@ source "http://rubygems.org" #workaround
 gem 'cucumber'
 gem 'rspec'
 gem 'rspec_junit_formatter'
+gem 'ffi'
