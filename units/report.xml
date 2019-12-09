@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="17" skipped="0" failures="0" errors="0" time="0.011600" timestamp="2019-12-09T17:38:03-03:00" hostname="GH-HVJSXT2">
+<properties>
+<property name="seed" value="48324"/>
+</properties>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter should add an avenger" file="./spec/avengers_spec.rb" time="0.002110"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter should adda n avengers list" file="./spec/avengers_spec.rb" time="0.002281"></testcase>
+<testcase classname="spec.bank.withdraw_cc_spec" name="CurrentAccount Withdraw when amount is positive then update balance" file="./spec/bank/withdraw_cc_spec.rb" time="0.000046"></testcase>
+<testcase classname="spec.bank.withdraw_cc_spec" name="CurrentAccount Withdraw when balance is 0 see message" file="./spec/bank/withdraw_cc_spec.rb" time="0.000036"></testcase>
+<testcase classname="spec.bank.withdraw_cc_spec" name="CurrentAccount Withdraw when balance is 0 balance still with 0" file="./spec/bank/withdraw_cc_spec.rb" time="0.001141"></testcase>
+<testcase classname="spec.bank.withdraw_cc_spec" name="CurrentAccount Withdraw when balance is insuficient then display message" file="./spec/bank/withdraw_cc_spec.rb" time="0.000087"></testcase>
+<testcase classname="spec.bank.withdraw_cc_spec" name="CurrentAccount Withdraw when balance is insuficient and balance still with initial value" file="./spec/bank/withdraw_cc_spec.rb" time="0.000051"></testcase>
+<testcase classname="spec.bank.withdraw_cc_spec" name="CurrentAccount Withdraw when withdraw value is higher than transaction limit then display message" file="./spec/bank/withdraw_cc_spec.rb" time="0.000038"></testcase>
+<testcase classname="spec.bank.withdraw_cc_spec" name="CurrentAccount Withdraw when withdraw value is higher than transaction limit and balance still with initial value" file="./spec/bank/withdraw_cc_spec.rb" time="0.000033"></testcase>
+<testcase classname="spec.bank.withdraw_cp_spec" name="SavingsAccount Withdraw when amount is positive then update balance" file="./spec/bank/withdraw_cp_spec.rb" time="0.000041"></testcase>
+<testcase classname="spec.bank.withdraw_cp_spec" name="SavingsAccount Withdraw when balance is 0 see message" file="./spec/bank/withdraw_cp_spec.rb" time="0.000053"></testcase>
+<testcase classname="spec.bank.withdraw_cp_spec" name="SavingsAccount Withdraw when balance is 0 balance still with 0" file="./spec/bank/withdraw_cp_spec.rb" time="0.000035"></testcase>
+<testcase classname="spec.bank.withdraw_cp_spec" name="SavingsAccount Withdraw when balance is insuficient then display message" file="./spec/bank/withdraw_cp_spec.rb" time="0.000036"></testcase>
+<testcase classname="spec.bank.withdraw_cp_spec" name="SavingsAccount Withdraw when balance is insuficient and balance still with initial value" file="./spec/bank/withdraw_cp_spec.rb" time="0.000032"></testcase>
+<testcase classname="spec.bank.withdraw_cp_spec" name="SavingsAccount Withdraw when withdraw value is higher than transaction limit then display message" file="./spec/bank/withdraw_cp_spec.rb" time="0.000038"></testcase>
+<testcase classname="spec.bank.withdraw_cp_spec" name="SavingsAccount Withdraw when withdraw value is higher than transaction limit and balance still with initial value" file="./spec/bank/withdraw_cp_spec.rb" time="0.000032"></testcase>
+<testcase classname="spec.examples_spec" name="examples rspec - Tests Suite sum of values OK" file="./spec/examples_spec.rb" time="0.000032"></testcase>
+</testsuite>
