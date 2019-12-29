@@ -19,12 +19,24 @@ RSpec.configure do |config|
   config.before(:example) do
     page.current_window.resize_to(1200, 800)
   end
+
+  config.after(:example) do |e|
+    description = e.description.gsub(/]^A-Za-z0-9 ]/, '').tr(' ', '_')
+    #+ '_' + Time.now.strftime("%d-%m-%Y-%H:%M-%S") +
+    page.save_screenshot(
+      'log/' + 
+      description + 
+      Time.now.strftime("%d-%m-%Y-%H:%M-%S") + 
+      '.png'
+    ) if e.exception
+  end
 end
 
 
 Capybara.configure do |config|
   #config.default_driver = :selenium #firefox
   config.default_driver = :selenium_chrome
+  config.default_driver = :selenium_chrome_headless runs chrome headless (yes, that simple)
   config.default_max_wait_time = 5
   config.app_host = 'https://training-wheels-protocol.herokuapp.com'
 end

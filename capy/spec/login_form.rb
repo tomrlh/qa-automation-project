@@ -40,6 +40,8 @@ describe 'Forms' do
                 $url, $user, $password, $user_field, $password_field,
                 $submit_button, $message_field, @expected_message
         )
+
+        page.save_screenshot('log/successful_login.png')
     end
 
 
@@ -50,6 +52,8 @@ describe 'Forms' do
                 $url, $user, $wrong_password, $user_field, $password_field,
                 $submit_button, $message_field, @expected_message
         )
+
+        page.save_screenshot('log/wrong_password.png')
     end
 
 
@@ -61,5 +65,7 @@ describe 'Forms' do
             $url, $wrong_user, $password, $user_field, $password_field,
             $submit_button, $message_field, @expected_message
         )
+
+        page.save_screenshot('log/unexistent_user.png')
     end
 end

@@ -34,27 +34,27 @@ describe 'Tables', :tables, :smoke do
         expect(instagram).to eql '@teamcevans'
     end
 
-    it 'should select Chris Pratt to remove' do
-        prat = find('table tbody tr', text: '@prattprattpratt')
+    it 'should select Chris Pratt to remove', :pratt do
+        prat = find('table tbody tr', text: 'Chris Prat')
 
         prat.find('a', text: 'delete').click
         # or
         # prat.all('a')[1].click
 
         msg = page.driver.browser.switch_to.alert.text
-
+        page.driver.browser.switch_to.alert.dismiss
         expect(msg).to eql 'Chris Pratt foi selecionado para remoção!'
     end
 
-    it 'should select Chris Pratt to remove' do
-        prat = find('table tbody tr', text: '@prattprattpratt')
+    it 'should select Chris Pratt to edit', :pratt do
+        prat = find('table tbody tr', text: 'Chris Prat')
 
         prat.find('a', text: 'edit').click
         # or
         # prat.all('a')[1].click
 
         msg = page.driver.browser.switch_to.alert.text
-
+        page.driver.browser.switch_to.alert.dismiss
         expect(msg).to eql 'Chris Pratt foi selecionado para edição!'
     end
 end
