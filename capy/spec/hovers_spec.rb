@@ -1,7 +1,7 @@
-describe 'Mouse Hover', :hovers do
+describe 'Mouse Hover', :hovers, :smoke do
 
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/hovers'
+        visit '/hovers'
     end
 
     it 'when hovers Blade' do

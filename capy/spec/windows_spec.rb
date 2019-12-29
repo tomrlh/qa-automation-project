@@ -1,6 +1,6 @@
 describe 'alternating windows', :windows do
     before(:each) do
-        visit 'http://training-wheels-protocol.herokuapp.com/windows'
+        visit '/windows'
     end
 
     it 'new window' do

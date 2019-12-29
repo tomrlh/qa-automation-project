@@ -2,7 +2,7 @@ describe 'Select2', :select2 do
 
     describe('single', :single) do
         before(:each) do
-            visit 'http://training-wheels-protocol.herokuapp.com/apps/select2/single.html'
+            visit '/apps/select2/single.html'
         end
 
         it 'select actor by name' do
@@ -26,7 +26,7 @@ describe 'Select2', :select2 do
 
     describe('multiple') do
         before(:each) do
-            visit 'http://training-wheels-protocol.herokuapp.com/apps/select2/multi.html'
+            visit '/apps/select2/multi.html'
         end
     end
 

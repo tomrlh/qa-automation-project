@@ -19,7 +19,7 @@ describe 'Forms' do
 
 
     # global variables
-    $url = 'http://training-wheels-protocol.herokuapp.com/login'
+    $url = '/login'
     $user = 'stark'
     $password = 'jarvis!'
     $wrong_user = 'wrong_user'

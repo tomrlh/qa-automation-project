@@ -1,7 +1,7 @@
 describe 'Succecssful login', :login_dynamic_id_fields do
 
     before(:each) do
-        visit 'http://training-wheels-protocol.herokuapp.com/access'
+        visit '/access'
     end
 
     it 'login with dynamic id fields' do

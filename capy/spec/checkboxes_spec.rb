@@ -1,7 +1,7 @@
 describe 'checkboxes', :checkbox do
 
     before(:each) do
-        visit 'http://training-wheels-protocol.herokuapp.com/checkboxes'
+        visit '/checkboxes'
     end
 
     after(:each) do

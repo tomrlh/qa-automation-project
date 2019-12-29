@@ -1,7 +1,7 @@
 describe 'Dynamic Control', :dc do
 
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/dynamic_controls'
+        visit '/dynamic_controls'
     end
 
     it 'when enable field' do

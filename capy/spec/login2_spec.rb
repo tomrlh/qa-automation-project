@@ -29,7 +29,7 @@ describe 'Login 2', :login2 do
 
 
     # global variables
-    $url = 'http://training-wheels-protocol.herokuapp.com/login2'
+    $url = '/login2'
     $user = 'stark'
     $password = 'jarvis!'
     $wrong_user = 'wrong_user'

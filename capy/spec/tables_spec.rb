@@ -1,6 +1,6 @@
-describe 'Tables', :tables do
+describe 'Tables', :tables, :smoke do
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/tables'
+        visit '/tables'
     end
 
     it 'should display Stark salary' do
